@@ -1,0 +1,76 @@
+.owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1
+}
+
+.owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y
+}
+
+.owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.owl-carousel.owl-loaded {
+    display: block
+}
+
+.owl-carousel.owl-loading {
+    opacity: 0;
+    display: block
+}
+
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: none;
+    -webkit-transform-style: preserve-3d
+}
+
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d
+}
+
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #222;
+    display: block;
+    margin: 0 5px 0 5px;
+    transition: opacity .2s ease 0s;
+    width: 15px;
+    height: 15px
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: none repeat scroll 0 0 #cda274
+}

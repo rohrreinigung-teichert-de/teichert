@@ -1,0 +1,47 @@
+.theme-btn-one i {
+    color: #fff
+}
+
+#image_block_1 .image-box .box .inner h1 {
+    color: #182a63
+}
+
+.sec-title:before {
+    background: #182a63
+}
+
+.sec-title .dotted-box .dotted {
+    background: #182a63
+}
+
+.theme-btn-two {
+    background: #182a63
+}
+
+.cta-section .inner-box .text:before {
+    background: #182a63
+}
+
+.cta-section .inner-box .text:after {
+    background: #182a63
+}
+
+.cta-section .inner-box .text .dotted-box .dotted {
+    background: #182a63
+}
+
+.service-block-one .inner-box:before {
+    background: #182a63
+}
+
+.apply-section .inner-box {
+    background: #182a63
+}
+
+.scroll-top {
+    background: #36b536
+}
+
+.apply-style-two .single-item .inner-box .icon-box {
+    color: #182a63
+}
